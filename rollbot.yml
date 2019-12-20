@@ -1,0 +1,9 @@
+- versioning:
+    strategy: calver
+    pattern: "YYYY.MM.DD.MICRO"
+    default_when_none: "2019.01.01.1"
+- jira:
+    transition:
+      source: "Release Pending"
+      target: "Released"
+
